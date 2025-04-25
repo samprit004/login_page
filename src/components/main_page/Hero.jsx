@@ -25,7 +25,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="flex flex-col gap-4 text-lg font-medium">
+          <div className="flex flex-col gap-4 font-medium">
             <CustomButton
              text="Create account"
              bgColor="bg-[#6C25FF]"
@@ -36,6 +36,7 @@ const Hero = () => {
              text="Already Registered? Login"
              bgColor="bg-[#CEBAFB]"
              textColor="text-black"
+             textsize="text-md"
              onClick={handleSignIn}
             />
           </div>
